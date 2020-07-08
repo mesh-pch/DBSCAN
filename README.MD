@@ -1,6 +1,4 @@
 # DBSCAN
-======
-
 Implementation of DBSCAN Algorithm in C++，This implementation can cluster data of any dimension. The distance of data points is Euclidean distance, but you can also modify it to your own distance. In order to speed up the algorithm, I applied the [ANN library](http://www.cs.umd.edu/~mount/ANN/) and used the kd_tree data structure to increase the search speed.
 # BUILD
 ```
